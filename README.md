@@ -1,1 +1,11 @@
-A collection of solutions to various Codewars problems! - Created using [CodeHub](https://github.com/FebinBellamy/CodeHub)
+# Codewars Solutions
+
+My solutions to Codewars kata challenges.
+
+## Languages
+
+JavaScript
+
+## Credits
+
+Solutions automatically synced using [CodeHub](https://github.com/febinbellamy/CodeHub).
