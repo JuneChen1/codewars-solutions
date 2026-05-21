@@ -1,14 +1,7 @@
 function duplicateEncode(word){
-  const overlap = {};
-  const words = word.toLowerCase().split('');
+  word = word.toLowerCase();
   
-  words.forEach(w => {
-    if (overlap[w] === undefined) {
-      overlap[w] = false;
-    } else {
-      overlap[w] = true;
-    }
-  })
-  
-  return words.map(w => overlap[w] ? ')' : '(').join('');
+  return word.split('')
+    .map(w => word.indexOf(w) === word.lastIndexOf(w) ? '(' : ')')
+    .join('');
 }
