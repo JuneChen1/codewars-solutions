@@ -19,4 +19,6 @@ function isInterest(number, awesomePhrases) {
   if ("9876543210".includes(str)) return true;
   const reverse = str.split('').reverse().join('');
   if (str === reverse) return true;
+  
+  return false;
 }
